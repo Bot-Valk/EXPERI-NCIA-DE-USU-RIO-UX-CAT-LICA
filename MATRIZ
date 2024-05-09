@@ -1,0 +1,83 @@
+Lista de matrizes.
+1)
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int main (void){
+int input;
+int inteiros [3] [3];
+
+for (int i = 0; i <3; i++){
+for (int j = 0; j<3; i++) {
+printf ("digite o valor para a linha %d coluna %d \n" , i+1 j+1);
+scanf ("%d", &inteiros [i] [j];
+}
+}
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+2)
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int main (void){
+int m1 [2] [2] = {{1,2} , {3,4}};
+int m1 [2] [2] = {{5,6} , {7,8}};
+int m1 [2] [2];
+
+
+for (int i = 0; i <2; i++){
+for (int j = 0; j<2; i++) {
+
+
+
+
+}
+
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+3)
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int main (void){
+int mm [4] [4] = {{1,2,3,4{, {5,6,7,8}, {9,10,11,12} , {13,14,15,16]};
+int somaM = 0;
+for (int i = 0; i < 4 ; i++)
+{ for int j = 0; j <4; j++)
+{ 
+somaM += mm [0] [i];
+}
+orubtf ("%d \n", somaM);
+somaM =0;
+}
+
+for (int i = 0; i<4; i++)
+{ for (int j = 0; j < 4; j++)
+somaM += mm [j] [i];
+}
+printf ("%d \n", somaM);
+}
+
+
+4) 
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+int main (void){
+int i, j, mult;
+int m [3] [3] = {{1,5,10,} {15,20, 25}, {30,35,40}};
+for ( int i = 0; i <3; i++)
+{
+For ( j = 0; j <3; j++)
+{
+Printf (“|%d|”, m [i] [j]);
+}
+Printf (“\n”);
+}
+Printf (“digite um número para multiplicar a matriz:\n ”);
+Scanf(“%d”, &mult);
+For (i = ; i <3; i++)
+{
+For (j = 0; j <3; j++)
+Printf (“|%d|”, m[i] [j] * mult);
+}
+Printf (“\n”);
+}
